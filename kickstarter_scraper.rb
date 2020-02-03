@@ -17,6 +17,7 @@ require "pry"
 
 #location
 # kickstarter.css("span.location-name").first.text
+
 def create_project_hash
 html = File.read('fixtures/kickstarter.html')
 kickstarter = Nokogiri::HTML(html)
