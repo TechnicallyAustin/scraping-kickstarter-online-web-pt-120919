@@ -10,7 +10,7 @@ require "pry"
 
 # image link:
 # kickstarter.css("div.project-thumbnail a img").attribute("src").value
-create_project_hash
+#create_project_hash
 
 # description link 
 # kickstarter.css("p.bbcard_blurb").text 
